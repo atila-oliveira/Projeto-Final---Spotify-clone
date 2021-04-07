@@ -16,6 +16,7 @@ body{
                 linear-gradient(50deg,#ff4169,#7c26f8);
     background-attachment: fixed;
     font-family: Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 /* -- barra de navegação -- */
@@ -94,6 +95,31 @@ nav.navbar-transparente{
     background: white;
     color: black;
 }
+
+/* -- sessão serviços -- */
+#servicos{
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.albuns{
+    padding: 10px 0 10px 0;
+}
+
+/* -- sessão recursos -- */
+#recursos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.rotacionar{
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
 /*=============================== Tipografia ===============================*/
 
 h1{
@@ -101,4 +127,21 @@ h1{
     font-weight: 900;
     letter-spacing: -0.05em;
     margin-bottom: 50px;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+}
+h3{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+}
+#servicos h2, #servicos h3{
+    color: #7c25f8;
+}
+#recursos h3{
+    color: #9bf0e1;
 }
